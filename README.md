@@ -30,7 +30,7 @@ rag-minimal/
 ## Architecture
 
 ```
-Knowledge Base (test.txt)
+    Knowledge Base (test.txt)
           │
           ▼
      Chunking
@@ -39,28 +39,28 @@ Knowledge Base (test.txt)
      Embeddings
           │
           ▼
-Document Embeddings
+    Document Embeddings
           │
           ▼
-User Question
+    User Question
           │
           ▼
-Question Embedding
+    Question Embedding
           │
           ▼
-Cosine Similarity Search
+    Cosine Similarity Search
           │
           ▼
-Most Relevant Chunk
+    Most Relevant Chunk
           │
           ▼
-Prompt Construction
+    Prompt Construction
           │
           ▼
-Qwen (Ollama)
+    Qwen (Ollama)
           │
           ▼
-Generated Answer
+    Generated Answer
 ```
 
 ## Requirements
